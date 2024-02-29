@@ -7,5 +7,5 @@ footer {
     width: 100%;
     margin-top: 20px;
     border-top: 1px solid #e9ecef;
-    border-radius: 10% 10% 0 0;
+    border-radius: 10px 10px 0 0; /* Apply a 10% border radius to the top corners only */
 }

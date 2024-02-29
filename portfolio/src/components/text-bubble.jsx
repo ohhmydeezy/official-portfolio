@@ -30,7 +30,7 @@ const TextBubble = () => {
             </div>
             <div className="text-bubble">
                 <p>Let’s talk business 🤩</p>
-                <p>rom one-time bespoke websites to full time employment opportunities,<br />
+                <p>From one-time bespoke websites to full time employment opportunities,<br />
                     I’m currently open to all avenues.</p>
             </div>
             <div className="link-bubble">

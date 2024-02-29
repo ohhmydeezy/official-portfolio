@@ -6,7 +6,7 @@ const Footer = () => {
             <>  
             <footer>
             <div className="icon-container">
-                <p>Connect with me</p>
+                <p>Connect with me:</p>
                     <a href="https://www.linkedin.com/in/dylan-gunda-1b5b0b1b5/" target="_blank">
                         <img src="/assets/images/linkedin.png" alt="LinkedIn" />
                     </a>
@@ -19,7 +19,6 @@ const Footer = () => {
                 </div>
             </footer>
             </>
-
     );
 }
 export default Footer;

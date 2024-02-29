@@ -1,24 +1,32 @@
 .text-bubble p {
     color: rgb(69, 69, 69);
-    margin: 10px 0; /* Add vertical margin to separate paragraphs */
+    margin: 10px 0; 
+    margin-left: 10px; 
     padding: 10px;
     background-color: rgb(197, 197, 197);
     border-radius: 50px;
+    display: inline-block; 
+    display: block;
+    width: fit-content; 
 }
 
 .link-bubble p {
     color: rgb(69, 69, 69);
     margin: 10px 0;
+    margin-left: 10px;
     padding: 10px;
     background-color: #98D9FD;
     border-radius: 50px;
+    display: inline-block; 
+    display: block; 
+    width: fit-content; 
 }
 
 .timestamp {
     color: rgb(69, 69, 69);
     font-size: 0.8em;
     margin: 10px 0;
-    display: inline-flex;
+    display: flex; /* Use display: flex to align items in a row */
     align-items: center; /* Vertically center the items */
 }
 
@@ -26,3 +34,8 @@
     width: 40px;
     margin-right: 5px;
 }
+
+.timestamp p {
+    margin: 0;
+}
+
