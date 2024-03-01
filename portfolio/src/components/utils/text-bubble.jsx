@@ -1,5 +1,11 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
+
 import '/src/components/css/text-bubble.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+const rightArrow = <FontAwesomeIcon icon={faCircleRight} />;
 
 const TextBubble = () => {
     return (
@@ -7,10 +13,10 @@ const TextBubble = () => {
             <div className="text-bubble">
                 <p>The above sites were once either just an idea or needed a lot of work</p>
                 <p>that’s where I come in</p>
-                <p>My goal is to help you bring your ideas to life</p>
+                <p>My passion is helping to bring ideas to life</p>
             </div>
             <div className="link-bubble">
-                <p>From Design to Front-end development, find out more</p>
+                <p>From Design to Front-end development, find out more {rightArrow}</p>
             </div>
             <div className="timestamp">
                 <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
@@ -22,7 +28,7 @@ const TextBubble = () => {
 
             </div>
             <div className="link-bubble">
-                <p>Find out more</p>
+                <p>Find out more {rightArrow}</p>
             </div>
             <div className="timestamp">
                 <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
@@ -34,7 +40,7 @@ const TextBubble = () => {
                     I’m currently open to all avenues.</p>
             </div>
             <div className="link-bubble">
-                <p>get in touch, it’d be great to hear from you!</p>
+                <p>get in touch, it’d be great to hear from you! {rightArrow}</p>
             </div>
             <div className="timestamp">
                 <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />

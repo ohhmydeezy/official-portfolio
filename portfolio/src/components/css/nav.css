@@ -43,3 +43,12 @@ nav img {
 nav a:hover {
     color: #00a2f9;
 }
+
+.navbar {
+    background-color: #ffffff;
+    opacity: 0.9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; /* or position: sticky; */
+    top: 0;
+    width: 100%;
+}
