@@ -1,10 +1,10 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
 }
+
 .header {
     width: 100%;
 }
@@ -32,7 +32,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #202020; 
+    color: #202020;
 }
 
 nav img {
@@ -48,7 +48,7 @@ nav a:hover {
     background-color: #ffffff;
     opacity: 0.9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed; /* or position: sticky; */
+    position: absolute;
     top: 0;
     width: 100%;
 }

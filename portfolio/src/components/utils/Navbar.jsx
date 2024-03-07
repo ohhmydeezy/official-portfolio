@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import '/src/components/css/nav.css'
 
 const Navbar = () => {
@@ -7,14 +8,14 @@ const Navbar = () => {
             <div className="header">
                 <nav className="navbar bg-body-tertiary">
                     <div className="container-fluid d-flex justify-content-between align-items-center">
-                        <a className="navbar-brand" href="#home">
-                            <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
-                        </a>
+                        <Link
+                                    to="/"
+                                    className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}><img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top"></img> </Link>
                         <ul className="nav">
                             <li className="nav-item">
-                                <a href="#about"
-                                    onClick={() => props.handlePageChange('About')}
-                                    className="nav-link">About</a>
+                                <Link
+                                    to="/About"
+                                    className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}>About</Link>
                             </li>
                             <li className="nav-item">
                                 <a href="#projects"
@@ -22,9 +23,9 @@ const Navbar = () => {
                                     className="nav-link">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#contact"
-                                    onClick={() => props.handlePageChange('Contact')}
-                                    className="nav-link">Contact</a>
+                                <Link
+                                    to="/Contact"
+                                    className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>Contact</Link>
                             </li>
                         </ul>
                     </div>
