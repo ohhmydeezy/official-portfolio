@@ -13,7 +13,7 @@ const ProjectCard = () => {
                         <div className="content">
                             <h5 className="card-title">Project Title</h5>
                             <p className="card-text">Project Description</p>
-                            <a href="#" className="btn btn-primary">Find Out More</a>
+                            <button href="#" className="btn btn-primary">Find Out More</button>
                         </div>
                     </div>
                     <div className="item">
@@ -21,7 +21,7 @@ const ProjectCard = () => {
                         <div className="content">
                             <h5 className="card-title">Project Title</h5>
                             <p className="card-text">Project Description</p>
-                            <a href="#" className="btn btn-primary">Find Out More</a>
+                            <button href="#" className="btn btn-primary">Find Out More</button>
                         </div>
                     </div>
                     <div className="item">
@@ -29,7 +29,7 @@ const ProjectCard = () => {
                         <div className="content">
                             <h5 className="card-title">Project Title</h5>
                             <p className="card-text">Project Description</p>
-                            <a href="#" className="btn btn-primary">Find Out More</a>
+                            <button href="/Projects" className="btn btn-primary">Find Out More</button>
                         </div>
                     </div>
                 </div>

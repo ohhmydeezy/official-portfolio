@@ -5,8 +5,8 @@ import Hero from './utils/hero'
 import TextBubble from './utils/text-bubble'
 import Footer from './utils/footer'
 import ProjectCard from './utils/project-card'
-import About from './pages/about'
-import Contact from './pages/contact'
+import About from './Pages/about';
+import Contact from './Pages/contact';
 import Home from './pages/Home';
 
 
@@ -18,6 +18,7 @@ function app() {
                     <Routes>
                         <Route exact path="/" element={<Home />} />
                         <Route exact path="About" element={<About />} />
+                        <Route exact path="Projects" element={<ProjectCard />} />
                         <Route exact path="Contact" element={<Contact />} />
                     </Routes>
                     <Footer />

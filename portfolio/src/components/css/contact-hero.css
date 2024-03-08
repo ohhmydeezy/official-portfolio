@@ -1,0 +1,105 @@
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #048bd3;
+    border-radius: 10px;
+    padding-top: 60px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.hero p {
+    color: #f5f2ff;
+    font-size: 1.5em;
+    margin: 0;
+    justify-content: center !important;
+}
+
+h1 {
+    color: #0f004c;
+    font-size: 2.5em;
+    margin: 0;
+    justify-content: center !important;
+
+}
+
+.hero-image img {
+    max-width: 100%;
+    padding-left: 50px;
+    width: 400px;
+    height: auto;
+    
+}
+
+.text-bubble input {
+    color: rgb(0, 0, 69);
+    margin: 10px 0;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 20px;
+    text-align: right;
+    justify-content: center !important;
+}
+
+
+.link-bubble p {
+    color: rgb(69, 69, 69);
+    margin: 10px 0;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #98D9FD;
+    border-radius: 20px;
+    display: inline-block; 
+    display: block; 
+    width: fit-content; 
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    align-items: end;
+    padding-right: 10px;
+}
+
+.input-container input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.input-container button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: #048bd3;
+    color: #f5f2ff;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0d0041;
+    color: azure;
+    
+}
+
+.text-bubble #message {
+    height: 100px;
+    width: fit-content;
+    padding: 100px;
+}
+
+#message input {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+

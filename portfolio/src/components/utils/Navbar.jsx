@@ -18,9 +18,9 @@ const Navbar = () => {
                                     className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}>About</Link>
                             </li>
                             <li className="nav-item">
-                                <a href="#projects"
-                                    onClick={() => props.handlePageChange('Blog')}
-                                    className="nav-link">Projects</a>
+                                <Link
+                                to="/Projects"
+                                className={window.location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>Projects</Link>
                             </li>
                             <li className="nav-item">
                                 <Link
