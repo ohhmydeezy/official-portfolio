@@ -3,6 +3,7 @@
     margin: 10px 0; 
     margin-left: 10px; 
     padding: 10px;
+    padding-left: -5px;
     background-color: rgb(197, 197, 197);
     border-radius: 50px;
     display: inline-block; 
