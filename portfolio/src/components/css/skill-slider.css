@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f2ff;
+    background-color: #ffffff;
     color: #0f004c;
     margin: 0;
     padding: 0;
@@ -42,12 +42,12 @@ body {
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), #f5f2ff);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffffff);
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #f5f2ff);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
 }
 
 .logos:hover .logo-slide {

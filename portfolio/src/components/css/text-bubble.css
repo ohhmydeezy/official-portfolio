@@ -1,23 +1,23 @@
 .text-bubble p {
     color: rgb(69, 69, 69);
     margin: 10px 0; 
-    margin-left: 10px; 
+    margin-left: 20px; 
     padding: 10px;
     padding-left: -5px;
     background-color: rgb(197, 197, 197);
-    border-radius: 50px;
+    border-radius: 20px;
     display: inline-block; 
     display: block;
     width: fit-content; 
 }
 
 .link-bubble p {
-    color: rgb(69, 69, 69);
+    color: rgb(125, 125, 125);
     margin: 10px 0;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
     background-color: #98D9FD;
-    border-radius: 50px;
+    border-radius: 20px;
     display: inline-block; 
     display: block; 
     width: fit-content; 
@@ -27,8 +27,8 @@
     color: rgb(69, 69, 69);
     font-size: 0.8em;
     margin: 10px 0;
-    display: flex; /* Use display: flex to align items in a row */
-    align-items: center; /* Vertically center the items */
+    display: flex;
+    align-items: center;
 }
 
 .timestamp img {

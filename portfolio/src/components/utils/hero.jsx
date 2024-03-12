@@ -15,9 +15,6 @@ const Hero = () => {
                     <p>Front-End Web Developer</p>
                 </div>
             </div>
-            <div className="col-lg-6">
-
-            </div>
         </div>
     );
 }

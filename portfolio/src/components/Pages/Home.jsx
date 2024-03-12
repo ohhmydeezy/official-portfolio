@@ -1,14 +1,14 @@
 import Hero from '../utils/hero';
-import Navbar from '../utils/Navbar';
 import TextBubble from '../utils/text-bubble';
 import ProjectCard from '../utils/project-card';
+import ImageSlider from '../utils/ImageSlider';
 
 
 function Home() {
     return (
         <div>
             <Hero />
-            <ProjectCard />
+            <ImageSlider />
             <TextBubble />
         </div>
     );
