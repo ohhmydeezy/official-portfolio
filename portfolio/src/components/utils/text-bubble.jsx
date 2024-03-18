@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
+
 
 import '/src/components/css/text-bubble.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -16,7 +18,7 @@ const TextBubble = () => {
                 <p>My passion is helping to bring ideas to life</p>
             </div>
             <div className="link-bubble">
-                <p>From Design to Front-end development, find out more {rightArrow}</p>
+                <p>From Design to Front-end development, find out more <Link to='/Projects'>{rightArrow}</Link></p>
             </div>
             <div className="timestamp">
                 <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
@@ -28,7 +30,7 @@ const TextBubble = () => {
 
             </div>
             <div className="link-bubble">
-                <p>Find out more {rightArrow}</p>
+                <p>Find out more <Link to='/About'>{rightArrow}</Link></p>
             </div>
             <div className="timestamp">
                 <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
@@ -40,7 +42,7 @@ const TextBubble = () => {
                     I’m currently open to all avenues.</p>
             </div>
             <div className="link-bubble">
-                <p>get in touch, it’d be great to hear from you! {rightArrow}</p>
+                <p>get in touch, it’d be great to hear from you! <Link to='/Contact'>{rightArrow}</Link></p>
             </div>
             <div className="timestamp">
                 <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
