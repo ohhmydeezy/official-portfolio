@@ -1,5 +1,8 @@
 import React from "react";
 import '/src/components/css/projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
     return (
@@ -11,6 +14,10 @@ const Projects = () => {
                         <div className="card">
                             <img src="/src/assets/images/coming soon .webp" alt="project 1" />
                             <div className="card-body">
+                                <div className="project-links">
+                                <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faLink}/></a>
+                                </div>
                                 <h5>Project 1</h5>
                                 <p>
                                     [Project Name] is a dynamic web application built using React, the popular JavaScript library for building user interfaces. <br />
@@ -42,6 +49,10 @@ const Projects = () => {
                         <div className="card">
                             <img src="/src/assets/images/AI coming soon.png" alt="project 2" />
                             <div className="card-body">
+                            <div className="project-links">
+                                <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faLink}/></a>
+                                </div>
                                 <h5>Project 2</h5>
                                 <p>
                                     [Project Name] is a modern web application powered by React, designed to revolutionize how users interact with [specific domain or industry].<br />
@@ -68,6 +79,10 @@ const Projects = () => {
                         <div className="card">
                             <img src="/src/assets/images/caution coming soon.png" alt="project 3" />
                             <div className="card-body">
+                            <div className="project-links">
+                                <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faLink}/></a>
+                                </div>
                                 <h5>Project 3</h5>
                                 <p>
                                     Welcome to [Project Name], your ultimate destination for building powerful web applications with React. <br />

@@ -16,3 +16,13 @@ footer a {
     text-decoration: none;
     height: 60px !important;
 }
+
+footer a:hover {
+    color: #005f8b;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}

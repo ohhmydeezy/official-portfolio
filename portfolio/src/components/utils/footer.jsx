@@ -2,9 +2,12 @@ import React from 'react';
 import '/src/components/css/footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
+import { Document, Page } from 'react-pdf';
 
 const gitHub = <FontAwesomeIcon icon={faGithub} />;
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} />;
+const cv = <FontAwesomeIcon icon={faFile} />;
 
 const Footer = () => {
     return (
@@ -19,6 +22,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="footer">
+                <p>check out my cv: </p><a href="/public/Web dev resume.pdf" download>Download CV</a>
                 <p>© 2024, Built with ❤️ by Dylan</p>
             </div>
         </footer>

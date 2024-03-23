@@ -1,3 +1,4 @@
+/* Default styles */
 .project-container {
     display: flex;
     justify-content: center;
@@ -16,3 +17,49 @@
     height: 100%;
     border-radius: 20px;
 }
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .project-container {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .project-container h1 {
+        margin-bottom: 30px;
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .slider-container {
+    display: flex;
+    justify-content: center;
+    height: 30vh !important;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    }
+
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.project-links a {
+    font-size: 30px; /* Adjust the font size as needed */
+    margin: 0 10px; /* Add margin between icons */
+    color: #000; /* Change the color of the icons */
+}
+
+.project-links a:hover {
+    color: #048bd3; /* Change the color of the icons on hover */
+}
+

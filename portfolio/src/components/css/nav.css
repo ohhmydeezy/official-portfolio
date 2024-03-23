@@ -41,7 +41,6 @@ nav img {
     width: 100px;
 }
 
-
 nav a:hover {
     color: #00a2f9;
 }
@@ -53,4 +52,23 @@ nav a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     top: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 0 20px; /* Add padding to the container for smaller screens */
+    }
+
+    .nav {
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    }
+
+    .nav-item {
+        margin-left: 10px; /* Add left margin to create space between items */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .nav-link {
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+    }
 }

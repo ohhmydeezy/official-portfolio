@@ -27,6 +27,7 @@
     color: rgb(69, 69, 69);
     font-size: 0.8em;
     margin: 10px 0;
+    margin-left: 50px;
     display: flex;
     align-items: center;
 }
@@ -38,5 +39,21 @@
 
 .timestamp p {
     margin: 0;
+}
+
+@media screen and (max-width: 768px)
+{
+    .text-bubble p {
+        margin-left: 0;
+    }
+
+    .link-bubble p {
+        margin-left: 0;
+    }
+
+    .timestamp {
+        margin-left: 0;
+    }
+    
 }
 

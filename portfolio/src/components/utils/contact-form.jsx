@@ -1,29 +1,60 @@
-import React from "react";
-import '/src/components/css/contact-form.css';
+import React, { useRef } from 'react';
+import '/src/components/css/contact-form.css'; // Corrected path to CSS file
+import 'bootstrap'; // Importing Bootstrap JS (optional if you're not using any Bootstrap JS components)
+import emailjs from 'emailjs-com';
 
+export const ContactForm = () => { // Corrected function name to use PascalCase
+    const form = useRef();
 
-function contactForm() {
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_o200xpa', 'template_0t4nyib', form.current, {
+                publicKey: 'Nt7IbAdkqbE0KUTuv',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
+    const handleAlertClose = () => { 
+        const alert = document.querySelector('#myAlert');
+        if (alert) {
+            alert.classList.remove('show');
+        }
+    };
+
     return (
-        <div>
+        <form ref={form} onSubmit={sendEmail}>
             <div className="input-container">
-            <div className="mb-3">
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Name:" />
-                </div>
-                <div className="mb-3">
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="subject:" />
-                </div>
-                <div className="mb-3">
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                </div>
-                <div class="mb-3">
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message:"></textarea>
-                </div>
-                <div className="submit">
-                    <button>Send</button>
+                <label htmlFor="name">Name</label>
+                <div>
+                    <input type="text" className="form-control" id="name" placeholder="Name" name='from_name' />
                 </div>
             </div>
-        </div>
+            <div className="input-container">
+                <label htmlFor="Email">Email</label> 
+                <div>
+                    <input type="text" className="form-control" id="Email" placeholder="Email" name='from_email' />
+                </div>
+            </div>
+            <div className="input-container">
+                <label htmlFor="message">Message</label>
+                <div>
+                    <textarea className="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+            </div>
+            <div className="input-container">
+                <button type="submit">Send</button>
+            </div>
+        </form>
     );
-}
+};
 
-export default contactForm;
+export default ContactForm;
