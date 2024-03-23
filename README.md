@@ -26,11 +26,11 @@ Step 3: Wireframing:
 
 // All great designs begin as an idea, with this in mind , I spent some time thinking of how i want the pages to look and how this would be best achieved, I made the wireframe usign FIGMA, from the previous Portfolio, some ideas were kept but the whole portfolio was reimagined, given the level of progress made since learning how to use HTML, CSS & bootstrap.
 
-![Wireframe](./src/assets/images/Screenshot%202024-01-13%20at%2000.00.26.png)
+![Wireframe](./portfolio/src/assets/images/Screenshot%202024-01-13%20at%2000.00.26.png)
 
 FOllowing this, a follow up wireframe was completed with a much more fleshed out idea, taking inspiration from something that we all use everyday.
 
-![Wireframe](./src/assets/images/Screenshot%202024-01-23%20at%2000.33.05.png)
+![Wireframe](./portfolio/src/assets/images/Screenshot%202024-01-23%20at%2000.33.05.png)
 
 Step 3: Creating the code: 
 
@@ -42,7 +42,7 @@ Step 4: Creating a React file:
 
 // Furthermore, creating components, helped to visualise each section and understand developing a better understanding of where something was not working if an error occurs or the page is behaving in an unexpected manor. It also made it easier to read the code. 
 
-![HTML-sections](../portfolio/src/assets/images/component.png)
+![HTML-sections](./portfolio/src/assets/images/component.png)
 
 Step 5: Creating the CSS stylesheet: 
 
@@ -52,7 +52,7 @@ Usage:
 
     the page will be used as my portfolio, where all of my future projects will live, in additon to this, as the my skills improve and evolve, my portfolio will continue to evolve and reflect my aquired skills, there are currently no project within the page or the project cards, whilst we hae completed a number of projects, i felt it would be appropriate to refactor the code, poslish the projects and bring them in line with my current skill capabilities, one this is done, the project page will be updated.
 
-![Projects](./src/assets/images/projects.png)
+![Projects](./portfolio/src/assets/images/projects.png)
 
 Credits: 
 
