@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// vite.config.js
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  // Other Vite configuration options...
+  build: {
+    // Specify the entry point as the index.html file within the portfolio folder
+    rollupOptions: {
+      input: '/path/to/portfolio/index.html' // Update the path accordingly
+    }
+  }
+});
