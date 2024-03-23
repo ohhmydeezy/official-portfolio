@@ -26,3 +26,7 @@ footer p {
     margin: 0;
     padding: 0;
 }
+
+.icon-container svg {
+    height: 50px !important;
+}

@@ -1,21 +1,20 @@
 import React, { useRef } from 'react';
 import '/src/components/css/contact-form.css'; // Corrected path to CSS file
 import 'bootstrap'; // Importing Bootstrap JS (optional if you're not using any Bootstrap JS components)
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => { // Corrected function name to use PascalCase
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
+        
 
         emailjs
-            .sendForm('service_o200xpa', 'template_0t4nyib', form.current, {
-                publicKey: 'Nt7IbAdkqbE0KUTuv',
-            })
+            .sendForm('service_o200xpa', 'template_0t4nyib', e.target, 'Nt7IbAdkqbE0KUTuv',)
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    alert('Email sent successfully!');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);

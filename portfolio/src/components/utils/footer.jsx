@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="footer">
-                <p>check out my cv: </p><a href="/public/Web dev resume.pdf" download>Download CV</a>
+                <p>check out my cv: </p><a href="./src/assets/Web dev resume.pdf" download="Web dev resume.pdf">Download Resume</a>
                 <p>© 2024, Built with ❤️ by Dylan</p>
             </div>
         </footer>
