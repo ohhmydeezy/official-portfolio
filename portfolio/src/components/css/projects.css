@@ -27,7 +27,7 @@
 
     .project-container h1 {
         margin-bottom: 30px;
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        font-size: 1.5rem; /
     }
 
     .card img {
@@ -54,12 +54,12 @@
 }
 
 .project-links a {
-    font-size: 30px; /* Adjust the font size as needed */
-    margin: 0 10px; /* Add margin between icons */
-    color: #000; /* Change the color of the icons */
+    font-size: 30px; 
+    margin: 0 10px; 
+    color: #000; 
 }
 
 .project-links a:hover {
-    color: #048bd3; /* Change the color of the icons on hover */
+    color: #048bd3; 
 }
 

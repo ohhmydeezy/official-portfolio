@@ -3,7 +3,6 @@ import '/src/components/css/footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
-import { Document, Page } from 'react-pdf';
 
 const gitHub = <FontAwesomeIcon icon={faGithub} />;
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} />;

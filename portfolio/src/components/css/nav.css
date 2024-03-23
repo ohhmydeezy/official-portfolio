@@ -64,11 +64,11 @@ nav a:hover {
     }
 
     .nav-item {
-        margin-left: 10px; /* Add left margin to create space between items */
-        margin-bottom: 10px; /* Add bottom margin for spacing */
+        margin-left: 10px; 
+        margin-bottom: 10px; 
     }
 
     .nav-link {
-        font-size: 0.8rem; /* Adjust font size for smaller screens */
+        font-size: 0.8rem; 
     }
 }
